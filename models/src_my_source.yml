@@ -1,0 +1,13 @@
+version: 2
+sources:
+    -
+        name: my_source
+        database: KEBOOLA_3194
+        schema: WORKSPACE_380649405
+        tables:
+            -
+                name: test
+                quoting:
+                    database: true
+                    schema: true
+                    identifier: true
