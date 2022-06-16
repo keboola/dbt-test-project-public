@@ -2,8 +2,8 @@ version: 2
 sources:
     -
         name: my_source
-        database: dbt_transformation_ci
-        schema: dbt_transformation_ci
+        database: '{{ env_var("DBT_KBC_PROD_DATABASE") }}'
+        schema: in.c-test
         tables:
             -
                 name: test
