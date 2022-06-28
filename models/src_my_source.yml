@@ -3,7 +3,7 @@ sources:
     -
         name: my_source
         database: '{{ env_var("DBT_KBC_PROD_DATABASE") }}'
-        schema: in.c-test
+        schema: in.c-test-bucket
         tables:
             -
                 name: test
