@@ -1,9 +1,9 @@
 version: 2
 sources:
     -
-        name: my_source
+        name: public
         database: '{{ env_var("DBT_KBC_PROD_DATABASE") }}'
-        schema: in.c-test-bucket
+        schema: public
         tables:
             -
                 name: test
