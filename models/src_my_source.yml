@@ -2,12 +2,8 @@ version: 2
 sources:
     -
         name: dbt
-        database: devel-249608
-        schema: dbt
+        project: devel-249608
+        dataset: dbt
         tables:
             -
                 name: test
-                quoting:
-                    database: true
-                    schema: true
-                    identifier: true
