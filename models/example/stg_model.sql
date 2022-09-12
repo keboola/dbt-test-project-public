@@ -1,18 +1,5 @@
-   with source as (
+{{ config(
+    materialized='table',
+)}}
 
-        select * from {{ source('dbt', 'test') }}
-
-    ),
-
-    renamed as (
-
-        select
-            "id",
-            "col2",
-            "col3",
-            "col4"
-        from source
-
-    )
-
-    select * from renamed
+select id from {{ source('dbt', 'test') }}
