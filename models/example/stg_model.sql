@@ -1,1 +1,1 @@
-select id from {{ ref('test') }}
+select "id", "col1" from {{ source('dbt', 'test') }}
