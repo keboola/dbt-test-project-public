@@ -2,8 +2,8 @@ version: 2
 sources:
     -
         name: public
-        database: postgres
-        schema: public
+        database: devel-249608
+        schema: dbt
         tables:
             -
                 name: test
