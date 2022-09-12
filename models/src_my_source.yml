@@ -2,7 +2,7 @@ version: 2
 sources:
     -
         name: public
-        database: '{{ env_var("DBT_KBC_PROD_DATABASE") }}'
+        database: postgres
         schema: public
         tables:
             -
