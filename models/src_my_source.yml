@@ -1,7 +1,7 @@
 version: 2
 sources:
     -
-        name: public
+        name: dbt
         database: devel-249608
         schema: dbt
         tables:
