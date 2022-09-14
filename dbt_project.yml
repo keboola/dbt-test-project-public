@@ -5,4 +5,4 @@ config-version: 2
 
 macro-paths: ["macros"]
 
-profile: kbc_prod
+profile: default
