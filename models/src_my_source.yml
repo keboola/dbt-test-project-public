@@ -1,0 +1,6 @@
+version: 2
+sources:
+    -
+        name: test
+        database: test
+        schema: dbo
