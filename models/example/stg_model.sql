@@ -1,6 +1,6 @@
    with source as (
         
-        select * from {{ source('in.c-test-bucket', 'test') }}
+        select * from {{ source('dbo', 'test') }}
         
     ),
     
