@@ -1,6 +1,9 @@
 version: 2
 sources:
     -
-        name: test
+        name: dbo
         database: test
         schema: dbo
+        tables:
+            -
+                name: test
