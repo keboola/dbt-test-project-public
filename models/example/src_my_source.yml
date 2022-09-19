@@ -1,0 +1,9 @@
+version: 2
+sources:
+    -
+        name: dbt_redshift_ci
+        database: dbt_redshift_ci
+        schema: public
+        tables:
+            -
+                name: test
