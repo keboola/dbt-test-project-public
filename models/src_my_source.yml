@@ -1,9 +1,0 @@
-version: 2
-sources:
-    -
-        name: dbt
-        project: devel-249608
-        dataset: dbt
-        tables:
-            -
-                name: test
