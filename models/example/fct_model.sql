@@ -1,3 +1,3 @@
 select *
 from {{ ref('stg_model') }}
-where col1 = 'a'
+where col2 = 'a'
