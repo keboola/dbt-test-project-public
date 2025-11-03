@@ -6,7 +6,7 @@ default:
         test:
             type: '{{ env_var("DBT_KBC_PROD_TYPE") }}'
             user: '{{ env_var("DBT_KBC_PROD_USER") }}'
-            password: '{{ env_var("DBT_KBC_PROD_PASSWORD") }}'
+            private_key: '{{ env_var("DBT_KBC_PROD_PRIVATE_KEY") }}'
             schema: '{{ env_var("DBT_KBC_PROD_SCHEMA") }}'
             warehouse: '{{ env_var("DBT_KBC_PROD_WAREHOUSE") }}'
             database: '{{ env_var("DBT_KBC_PROD_DATABASE") }}'
